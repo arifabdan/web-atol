@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-nav a{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: .5s;
+    margin: 7px;
+}
+.navbar-nav a:before, .navbar-nav a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: .5s;
+    opacity: 0;
+}
+.navbar-nav a:before{
+    top: 0;
+    left: 0;
+}
+.navbar-nav a:after{
+    bottom: 0;
+    right: 0;
+}
+.navbar-nav a:hover:before, .navbar-nav a:hover:after{
+    opacity: 1;
+    width: 100%;
+    transition: .5s;
+}
+.navbar-nav{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+body{
+    min-height: 3000px;
+    background-color: black;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    height: 3000px;
+    background-size: cover;
+    background-position: center center;
+}

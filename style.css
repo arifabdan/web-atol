@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-nav a{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: .5s;
+    margin: 7px;
+}
+.navbar-nav a:before, .navbar-nav a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: .5s;
+    opacity: 0;
+}
+.navbar-nav a:before{
+    top: 0;
+    left: 0;
+}
+.navbar-nav a:after{
+    bottom: 0;
+    right: 0;
+}
+.navbar-nav a:hover:before, .navbar-nav a:hover:after{
+    opacity: 1;
+    width: 100%;
+    transition: .5s;
+}
+.navbar-nav{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.banner-text p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.text-area{
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+hr{
+    margin-bottom: 50px;
+}
+.text-area span{
+    color : #fff;
+    opacity: 0;
+    transform: translate(0,-100px) rotate(360deg) scale(0);
+    animation: animate 5s forwards;
+}
+.text-area span{
+    display: inline-block;
+}
+.text-area span:nth-of-type(2){
+    animation-delay: .1s;
+}
+text-area span:nth-of-type(3){
+    animation-delay: .2s;
+}
+text-area span:nth-of-type(4){
+    animation-delay: .3s;
+}
+text-area span:nth-of-type(5){
+    animation-delay: .4s;
+}
+text-area span:nth-of-type(6){
+    animation-delay: .5s;
+}
+text-area span:nth-of-type(7){
+    animation-delay: .6s;
+}
+text-area span:nth-of-type(8){
+    animation-delay: .7s;
+}
+hr{
+    background-color: #fff;
+}
+@keyframes animate {
+    30%{
+        transform: translate(0,-50px) rotate(180deg) scale(1);
+    }
+    60%{
+        transform: translate(0,00px) rotate(0deg) scale(.8);
+    }
+    100%{
+        transform: translate(0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    
+}
