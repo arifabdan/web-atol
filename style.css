@@ -74,6 +74,26 @@ header{
     text-transform: uppercase;
     font-weight: bold;
 }
+.contact-info{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  color:#000;
+  background-color: #fff;
+  margin: 0;
+}
+.social-links{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  color:#000;
+  margin: 0;
+  z-index: 2;
+}
 hr{
     margin-bottom: 50px;
 }
@@ -110,6 +130,7 @@ text-area span:nth-of-type(8){
 hr{
     background-color: #fff;
 }
+
 @keyframes animate {
     30%{
         transform: translate(0,-50px) rotate(180deg) scale(1);
