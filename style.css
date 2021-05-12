@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 header{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/1.jpg);
     height: 100vh;
@@ -74,26 +75,6 @@ header{
     text-transform: uppercase;
     font-weight: bold;
 }
-.contact-info{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: left;
-  color:#000;
-  background-color: #fff;
-  margin: 0;
-}
-.social-links{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: right;
-  color:#000;
-  margin: 0;
-  z-index: 2;
-}
 hr{
     margin-bottom: 50px;
 }
@@ -130,7 +111,158 @@ text-area span:nth-of-type(8){
 hr{
     background-color: #fff;
 }
+p{
+    color: #000;
+    line-height: 25px;
+}
+h2,h3{
+    color: #000;
+}
+h2{
+    font-size: 18px;
+}
+.footer-top{
+    background: #fff;
+    padding: 50px 0;
+}
+.segment-one h2{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.segment-one h2:before{
+    content: '|';
+    padding-right: 10px;
+}
+.segment-one p{
+    font-family: 'Roboto', sans-serif;
+}
+.segment-two h2{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content: '|';
+    color: #000;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-top: 1px solid rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.segment-two ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.segment-three h2{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+}
+.segment-three h2:before{
+    content: '|';
+    color: #000;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #000;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+.segment-three p{
+    font-family: 'Roboto', sans-serif;
+}
+.segment-four h2{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+}
+.segment-four h2:before{
+    content: '|';
+    color: black;
+    padding-right: 10px;
+}
+.segment-four form input[type=submit]{
+    background: black;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.segment-four a{
+    background: #000;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-four a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
 
+@media screen and (max-width: 576px){
+    .segment-one{
+        padding-bottom: 2rem;
+    }
+    .segment-two{
+        padding-bottom: 2rem;
+    }
+    .segment-three{
+        padding-bottom: 2rem;
+    }
+    header{
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/1.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+    }
+    .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .banner-text p{
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    .text-area{
+        font-size: 35px;
+        font-family: 'Kaushan Script', cursive;
+        text-transform: uppercase;
+        font-weight: bold;
+    }    
+
+}
+@media screen and (max-width: 768px){
+    
+}    
+@media screen and (max-width: 992px){
+    
+}
 @keyframes animate {
     30%{
         transform: translate(0,-50px) rotate(180deg) scale(1);
