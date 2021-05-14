@@ -244,7 +244,7 @@ h2{
         margin-top: 50px;
     }
     .text-area{
-        font-size: 35px;
+        font-size: 28px;
         font-family: 'Kaushan Script', cursive;
         text-transform: uppercase;
         font-weight: bold;
@@ -252,10 +252,6 @@ h2{
     .navbar-brand{
         font-family: 'Poppins', sans-serif;
         font-size: 15px;
-        
-    }
-    nav{
-        width: 575px;
     }
 }
 @keyframes animate {

@@ -22,11 +22,12 @@
 </div>
 <!--NavBar-->
 <title>Welcome to Code73!</title>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top atas">
   <a class="navbar-brand">
   <img src="../web atol/img/code.png" width="35" height="35" alt="">
   Code73
   </a>
+  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -74,24 +75,24 @@
   <div class="footer-top">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12 segment-one" data-aos="fade-right" data-aos-duration="1000">
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-one" data-aos="fade-down" data-aos-duration="1000">
           <h2>profile</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fuga sequi earum delectus error odit quas pariatur harum aperiam, ullam vel nostrum quisquam, doloribus sint a neque nulla nihil natus.</p>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 segment-two" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-two" data-aos="fade-down" data-aos-duration="1000">
           <h2>Links</h2>
           <ul>
             <li><a href="https://github.com/arifabdan">Github</a></li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 segment-three" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-three" data-aos="fade-down" data-aos-duration="1000">
           <h2>Follow Us</h2>
           <p>Please Follow us on our social media profile in order to keep updated.</p>
           <a href="https://www.facebook.com/arif.abdan.5/"><i class="fa fa-facebook"></i></a>
           <a href="https://www.instagram.com/arifabdnsykr/?hl=en"><i class="fa fa-instagram"></i></a>
           <a href="https://github.com/arifabdan"><i class="fa fa-github"></i></a>  
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 segment-four" data-aos="fade-left" data-aos-duration="1000">
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-four" data-aos="fade-down" data-aos-duration="1000">
           <h2>Gaming Stuff</h2>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, molestiae. Illum, numquam quo quos illo animi dolorem, hic cum dolorum beatae sequi, quae maxime eligendi ipsam odio molestias iste accusamus.</p>
           <a href="https://steamcommunity.com/id/Jbxseven/"><i class="fa fa-steam-square"></i></a>
@@ -100,14 +101,16 @@
     </div>
   </div>
 </footer>
+<!--script AOS-->
 <script>
   AOS.init();
 </script>
-<!--script-->
+<!--script preloader-->
 <script>
     $(document).ready(function() {
 	  $(".preloader").delay(2000).fadeOut();
     })
     </script>
+</script>    
   </body>
 </html>
