@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(img/1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -154,7 +154,6 @@ h2{
     list-style: none;
 }
 .segment-two ul li{
-    border-top: 1px solid rgba(0,0,0,0.6);
     border-bottom: 1px solid rgba(0, 0, 0, 0.6);
     line-height: 40px;
     font-family: 'Roboto', sans-serif;
@@ -219,7 +218,9 @@ h2{
     color: #fff;
     padding: 10px 12px;
 }
-
+.segment-four p{
+    font-family: 'Roboto', sans-serif;
+}
 @media (max-width: 576px){
     .segment-one{
         padding-bottom: 2rem;
@@ -253,6 +254,32 @@ h2{
         font-family: 'Poppins', sans-serif;
         font-size: 15px;
     }
+}
+@media (max-width: 768px){
+    .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .banner-text p{
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    .text-area{
+        font-size: 25px;
+        font-family: 'Kaushan Script', cursive;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .navbar-brand{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
 }
 @keyframes animate {
     30%{

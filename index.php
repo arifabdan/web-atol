@@ -24,7 +24,6 @@
 <title>Welcome to Code73!</title>
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top atas">
   <a class="navbar-brand">
-  <img src="../web atol/img/code.png" width="35" height="35" alt="">
   Code73
   </a>
   </div>
@@ -77,12 +76,13 @@
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12 segment-one" data-aos="fade-down" data-aos-duration="1000">
           <h2>profile</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fuga sequi earum delectus error odit quas pariatur harum aperiam, ullam vel nostrum quisquam, doloribus sint a neque nulla nihil natus.</p>
+          <p>My name is Arif Abdan Syakur I live in Indonesia in Bandung, West Java. I am a beginner programmer who is still at the university level. The programming languages ​​that I know are HTML, CSS, Java. You can see my bio at the profile section.</p>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12 segment-two" data-aos="fade-down" data-aos-duration="1000">
           <h2>Links</h2>
           <ul>
-            <li><a href="https://github.com/arifabdan">Github</a></li>
+            <li><a href="https://github.com/arifabdan">github</a></li>
+            <li><a href="https://www.youtube.com/channel/UCauPVCrpcM-ipl20tfASFmA">youtube</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12 segment-three" data-aos="fade-down" data-aos-duration="1000">
@@ -90,11 +90,10 @@
           <p>Please Follow us on our social media profile in order to keep updated.</p>
           <a href="https://www.facebook.com/arif.abdan.5/"><i class="fa fa-facebook"></i></a>
           <a href="https://www.instagram.com/arifabdnsykr/?hl=en"><i class="fa fa-instagram"></i></a>
-          <a href="https://github.com/arifabdan"><i class="fa fa-github"></i></a>  
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12 segment-four" data-aos="fade-down" data-aos-duration="1000">
           <h2>Gaming Stuff</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, molestiae. Illum, numquam quo quos illo animi dolorem, hic cum dolorum beatae sequi, quae maxime eligendi ipsam odio molestias iste accusamus.</p>
+          <p>I love playing video games and I have a game account that you can add as a friend.</p>
           <a href="https://steamcommunity.com/id/Jbxseven/"><i class="fa fa-steam-square"></i></a>
         </div>
       </div>
