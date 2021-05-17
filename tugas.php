@@ -8,11 +8,12 @@
 </head>
 <body>
 <title>Tugas Kuliah</title>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<title>Welcome to Code73!</title>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top atas">
   <a class="navbar-brand">
-  <img src="../web atol/img/bezier2.svg" width="35" height="35" alt="">
   Code73
   </a>
+  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -22,13 +23,13 @@
         <a class="nav-link" href="index.php">Home</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Tugas</a>
+        <a class="nav-link" href="tugas.php">coursework</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="biodata.php">Biodata</a>
+        <a class="nav-link" href="#">Random</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Soon Bois!</a>
+        <a class="nav-link" href="biodata.php">profile</a>
       </li>
     </ul>
   </div>
